@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #ffffff url('../images/coming-soon-bg-img.jpg') no-repeat center bottom fixed;
+    background-size: cover;
+}
+
+
+
+#cspio-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cspio-box{
+    width: 50vmax;
+}
+.coming-soon-box{
+    background-color: rgba(0, 0, 0, 0.107);
+    height: 100vh;
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+    width:15vmax;
+    margin-top: -4px;
+}
+
+
+#cspio-headline{
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 4vmax;
+    color:#860000;
+    line-height: 1.00em;
+}
+small,
+li,
+.data-text{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 1.2vmax;
+}
+small{
+    margin-top: 10px;
+}
+.cspio-box ul{
+    gap: 50px;
+}
+.fs-countdown-number {
+    width: 7vmax;
+    height: 7vmax;
+    font-size: 3.5vmax;
+}
+
+
+
+/* ======= Responsive Code ========= */
+
+@media (max-width: 1200px) {
+    img{
+        width:17vmax;
+    }
+    #cspio-headline{
+        font-size: 5vmax;
+    }
+    small,
+    li,
+    .data-text{
+        font-size: 1.3vmax;
+    }
+    .cspio-box ul{
+        gap: 40px;
+    }
+    .fs-countdown-number {
+        width: 7vmax;
+        height: 7vmax;
+        font-size: 3vmax;
+    }
+}
+@media (max-width: 1000px) {
+    .cspio-box{
+        width: 60vmax;
+    }
+    img{
+        width:20vmax;
+    }
+    #cspio-headline{
+        font-size: 5.5vmax;
+    }
+    small,
+    li,
+    .data-text{
+        font-size: 1.5vmax;
+    }
+
+    .cspio-box ul{
+        gap: 30px;
+    }
+    .fs-countdown-number {
+        width: 7.5vmax;
+        height: 7.5vmax;
+        font-size: 3.5vmax;
+    }
+}
+@media (max-width: 850px) {
+    .cspio-box{
+        width: 65vmax;
+    }
+    img{
+        width:24vmax;
+    }
+    #cspio-headline{
+        font-size: 6vmax;
+    }
+    small,
+    li,
+    .data-text{
+        font-size: 1.7vmax;
+    }
+
+    .cspio-box ul{
+        gap: 20px;
+    }
+    .fs-countdown-number {
+        width: 7.5vmax;
+        height: 7.5vmax;
+        font-size: 3.5vmax;
+    }
+}
+@media (max-width:600px) {
+    .cspio-box{
+        width: 47vmax;
+    }
+    img{
+        width:26vmax;
+    }
+    #cspio-headline{
+        font-size: 6.5vmax;
+    }
+    #cspio-headline span{
+        display: none;
+    }
+    small,
+    li,
+    .data-text{
+        font-size: 2vmax;
+    }
+
+    .fs-countdown-number {
+        width: 8vmax;
+        height: 8vmax;
+        font-size: 3.5vmax;
+    }
+
+}
